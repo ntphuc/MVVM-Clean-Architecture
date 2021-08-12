@@ -1,0 +1,12 @@
+dependencies {
+    api "androidx.room:room-runtime:2.3.0"
+    kapt "androidx.room:room-compiler:2.3.0"
+    // optional - Kotlin Extensions and Coroutines support for Room
+    api "androidx.room:room-ktx:2.3.0"
+    // optional - RxJava support for Room
+    api "androidx.room:room-rxjava2:2.3.0"
+    testImplementation "androidx.room:room-testing:2.3.0"
+    api "net.zetetic:android-database-sqlcipher:4.4.2"
+    api "androidx.sqlite:sqlite:2.1.0"
+    api "androidx.security:security-crypto:1.1.0-alpha03"
+}
